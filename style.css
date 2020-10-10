@@ -1,0 +1,64 @@
+.container {
+  padding: 10px;
+  margin: 10px;
+}
+
+.main-header {
+  font-size: 5vw;
+}
+.error-message {
+  font-size: 2vw;
+}
+.home-button {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+.home-button:hover{
+  background-color:white;
+  color: black;
+}
+.scarecrow-tile{
+}
+.scarecrow {
+  animation: float 3s ease-out infinite;
+}
+@keyframes float {
+  50% {
+    transform: translate(0, 20px);
+  }
+}
+
+.shadow-box {
+  margin-top: 2em;
+}
+.shadow:hover {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+}
+.shadow {
+  animation: shrink 3s ease-out infinite;
+  transform-origin: center center;
+  ellipse {
+    transform-origin: center center;
+  }
+}
+
+@keyframes shrink {
+  0% {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+  }
+  50% {
+  -webkit-transform: scale(0.6);
+  -ms-transform: scale(0.6);
+  transform: scale(0.6);
+  }
+  100% {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+  }
+}
