@@ -11,10 +11,10 @@
   overflow: hidden;
 }
 .main-header {
-  font-size: 5vw;
+  font-size: 5vh;
 }
 .error-message {
-  font-size: 2vw;
+  font-size: 2vh;
 }
 .home-button {
   width: 100%;
