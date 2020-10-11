@@ -2,7 +2,14 @@
   padding: 10px;
   margin: 10px;
 }
-
+.svg-container {
+  display: inline-block;
+  position: relative;
+  max-width: 100%;
+  padding-bottom: 0;
+  vertical-align: top;
+  overflow: hidden;
+}
 .main-header {
   font-size: 5vw;
 }
@@ -14,11 +21,11 @@
   background-color: black;
   color: white;
 }
-.home-button:hover{
-  background-color:white;
+.home-button:hover {
+  background-color: white;
   color: black;
 }
-.scarecrow-tile{
+.scarecrow-tile {
 }
 .scarecrow {
   animation: float 3s ease-out infinite;
@@ -31,6 +38,7 @@
 
 .shadow-box {
   margin-top: 2em;
+  margin-right: 0.8em;
 }
 
 .shadow {
@@ -43,24 +51,24 @@
 
 @keyframes shrink {
   0% {
-  -webkit-transform: scale(0.9);
-  -ms-transform: scale(0.9);
-  transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
   }
   50% {
-  -webkit-transform: scale(0.6);
-  -ms-transform: scale(0.6);
-  transform: scale(0.6);
+    -webkit-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    transform: scale(0.6);
   }
   100% {
-  -webkit-transform: scale(0.9);
-  -ms-transform: scale(0.9);
-  transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
   }
 }
 
 .footer-div {
-  height:2em;
+  height: 2em;
 }
 .right-tag {
   position: sticky;
